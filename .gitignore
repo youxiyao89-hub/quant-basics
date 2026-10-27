@@ -1,0 +1,12 @@
+# secrets
+.env
+# local data cache (Tushare data is licensed; never commit it)
+data/*
+!data/.gitkeep
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
